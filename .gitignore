@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+.DS_Store
+*.log
+logs
+*.tsbuildinfo
+
+cypress/videos
+cypress/screenshots
+cypress/downloads
+
+.idea
+.vscode/*
+!.vscode/extensions.json
