@@ -1,7 +1,7 @@
 function App() {
   return (
     <main>
-      <h1 data-testid="home-title">Bienvenue sur le boilerplate React</h1>
+      <h1 data-testid="home-title">Welcome in React boilerplate</h1>
     </main>
   )
 }

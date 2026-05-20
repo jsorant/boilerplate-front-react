@@ -1,8 +1,8 @@
-describe('Page d\'accueil', () => {
-  it('affiche le titre de bienvenue', () => {
+describe("Welcome", () => {
+  it('displays welcome page', () => {
     cy.visit('/')
     cy.get('[data-testid="home-title"]')
       .should('be.visible')
-      .and('contain.text', 'Bienvenue sur le boilerplate React')
+      .and('contain.text', 'Welcome in React boilerplate')
   })
 })
